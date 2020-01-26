@@ -13,7 +13,7 @@ n = int(input('How many words do you want? '))
 numbers = set()
 
 # Add random numbers to the list numbers.
-# The range does not include numbers 1-10108 because these
+# The range does not include numbers 1-19108 because these
 # lines contain proper nouns.
 for i in range(n):
     x = random.randrange(19109, 101825)
