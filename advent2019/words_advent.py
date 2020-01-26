@@ -15,7 +15,7 @@ numbers = set()
 # Add random numbers to the list numbers.
 # The range does not include numbers 1-19108 because these
 # lines contain proper nouns.
-for i in range(n):
+while len(numbers) < n:
     x = random.randrange(19109, 101825)
     numbers.add(x)
 
